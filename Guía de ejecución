@@ -1,0 +1,24 @@
+Paso 1: Acceder a Google Colab:
+
+Abre tu navegador web y dirígete a Google Colab en https://colab.research.google.com/.
+Si no has iniciado sesión en tu cuenta de Google, hazlo.
+Paso 2: Crear un nuevo cuaderno:
+
+Haz clic en "Nuevo cuaderno" para comenzar un nuevo proyecto en Colab.
+Paso 3: Copiar y pegar el código:
+
+Copia el código proporcionado en este documento y pégalo en la celda de código del cuaderno de Colab. Solo tienes que hacer clic en la celda de código y pegar el código.
+Paso 4: Configurar el entorno de ejecución:
+
+En la barra de herramientas del cuaderno de Colab, ve a Entorno de ejecución.
+Selecciona la opción Cambiar tipo de entorno de ejecución.
+En el menú desplegable, elige Acelerador de hardware.
+Selecciona la opción TPU para utilizar un Tensor Processing Unit como acelerador de hardware.
+Paso 5: Ejecutar el código:
+
+Haz clic en el botón de reproducción que aparece a la izquierda de la celda de código o simplemente presiona Shift + Enter.
+El código generará los tensores, realizará la multiplicación en CPU, GPU (si está disponible) y TPU, y mostrará los tiempos de ejecución para cada dispositivo.
+Paso 6: Interpretar los resultados:
+
+Observa los tiempos de ejecución impresos para cada dispositivo y analiza los resultados.
+Siguiendo estos pasos, podrás ejecutar el código en Google Colab y realizar tus propias evaluaciones del rendimiento de la multiplicación de tensores en CPU, GPU y TPU.
